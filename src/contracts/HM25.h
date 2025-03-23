@@ -1,6 +1,8 @@
 #include <cstring>
 using namespace QPI;
 
+#define CONTRACT_STATE_TYPE ServiceNFT
+
 struct ServiceNFT252 { };
 
 struct ServiceNFT : public ContractBase {
